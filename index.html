@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Calculadora Simples</title>
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <p>Calculadora</p>
+        </div>
+    </header>
+    <div class="form-container">
+        <form id="calcForm">
+            <br><label>Valor 1</label>
+            <input type="text" autocomplete="off" id="valor1"> <br><br>
+            <label>Valor 2</label>
+            <input type="text" autocomplete="off" id="valor2"> <br>
+
+            <button onclick="soma()" class="botoes">SOMA</button>
+            <button onclick="subtrair()" class="botoes">SUBTRAIR</button>
+            <button onclick="multiplicar()" class="botoes">DOBRO</button>
+            <button onclick="dividir()" class="botoes">DIVIDIR</button> 
+            <button onclick="potencia()" class="botoes">POTÊNCIA</button> <br><br>
+            <p id="resultado"></p>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
